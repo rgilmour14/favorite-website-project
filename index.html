@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Universe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid text-center">
+                <a class="navbar-brand" href="/index.html">Golf Universe</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid bg-success text-white text-center py-5">
+            <h1 id="title">Welcome to Golf Universe</h1>
+            <button onclick="greetUser()">Click me</button>
+        </div>
+
+        <div id="herosection">
+            <p>We make the cost of playing golf easy on the wallet!</p>
+        </div>
+
+        <section class="events py-5">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="/assets/golfbrands.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">20% OFF!</h5>
+                                <p class="card-text">Come in and save 20% off all brands in the store. Hurry offer only lasts until 5/1/2025.</p>
+                                <a href="shop.html" class="btn btn-success">Go Shopping</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/clubfitting.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Free Club Fittings</h5>
+                                <p class="card-text">We include a free club fitting for all golf club purchases. Contact us today to reserve a time!</p>
+                                <a href="contact.html" class="btn btn-success">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="assets/golfshoes.avif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">50% OFF Golf Shoes!</h5>
+                                <p class="card-text">Come in and save 50% off all our shoes. This offer will only be available on 5/4/2025. </p>
+                                <a href="shop.html" class="btn btn-success">Go Shopping</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!-- End row -->
+            </div> <!-- End container -->
+        </section>
+
+    </main>
+
+    <footer class = "bg-success">
+        <p>&copy; 2025 Golf Universe</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
